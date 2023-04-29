@@ -1,0 +1,18 @@
+{% include "header.html" %}
+{% include "navbar.html" %}
+<html>
+    <head>
+		  <title>Navbar</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+    </head>
+	<body>
+		{% block content %}
+			<div class="px-6 py-6"></div>
+		{% endblock %}
+    </body>
+</html>
+<script>
+	$(document).ready(function(){
+		$(".alert").hide(4000);
+	});
+</script>
